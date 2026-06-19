@@ -49,20 +49,20 @@ A partir da raiz do repositório, abra o seu terminal e navegue até a pasta do 
 ```powershell
 cd kruskal
 ```
-# 1.1 Crie e ative o ambiente virtual
+### 1.1 Crie e ative o ambiente virtual
 ```powershell
 python -m venv venv
 venv\Scripts\activate
 ```
-# 1.2 Instale a dependência de plotagem
+### 1.2 Instale a dependência de plotagem
 ```powershell
 pip install matplotlib
 ```
-# 1.3 Execute o script main
+### 1.3 Execute o script main
 ```powershell
 python main.py
 ```
-# 1.4 Execute o script gerador de gráficos
+### 1.4 Execute o script gerador de gráficos
 ```powershell
 python plotar_graficos.py
 ```
