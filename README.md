@@ -42,7 +42,7 @@ O projeto foi construído em **Python** utilizando exclusivamente pacotes nativo
 
 Os testes devem ser executados individualmente, navegando para dentro da pasta de cada algoritmo.
 
-### 1. Executando o Kruskal
+## 1. Executando o Kruskal
 
 A partir da raiz do repositório, abra o seu terminal e navegue até a pasta do Kruskal:
 
