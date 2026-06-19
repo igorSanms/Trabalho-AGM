@@ -17,24 +17,24 @@ O objetivo principal do projeto é analisar empiricamente o comportamento dos al
 
 Para garantir a organização e o isolamento das execuções, o projeto foi dividido em duas pastas principais, uma para cada algoritmo. Os resultados de tempo e as imagens geradas são armazenados em subpastas dedicadas dentro de cada diretório.
 
+```text
 /
-├── kruskal/                      # Implementação do Algoritmo de Kruskal (Seu Nome)
-│   ├── resultados/               # Pasta gerada automaticamente com CSVs e gráficos .png
-│   ├── main.py                   # Script de automação e execução em lote dos testes
-│   ├── kruskal.py                # Lógica do Kruskal e estrutura Union-Find
-│   ├── graph_generator.py        # Gerador de grafos (Esparsos, Densos, Geométricos)
-│   ├── benchmark.py              # Funções de cronometragem e estatísticas
-│   └── plotar_graficos.py        # Leitura do CSV e geração dos gráficos (Matplotlib)
+├── 📂 kruskal/                         # Implementação do Algoritmo de Kruskal
+│   ├── 📂 resultados/                  # CSVs e gráficos gerados automaticamente
+│   ├── 📄 main.py                      # Execução em lote dos testes
+│   ├── 📄 kruskal.py                   # Algoritmo de Kruskal + Union-Find
+│   ├── 📄 graph_generator.py           # Gerador de grafos
+│   ├── 📄 benchmark.py                 # Cronometragem e estatísticas
+│   └── 📄 plotar_graficos.py           # Geração dos gráficos (Matplotlib)
 │
-└── prim/                         # Implementação do Algoritmo de Prim ([Nome do Parceiro])
-    ├── resultados/               # [Pasta para os CSVs e gráficos do Prim]
-    ├── main.py                   # [Script de automação do Prim]
-    ├── prim.py                   # [Lógica do algoritmo de Prim]
-    ├── graph_generator.py        # [Gerador de grafos]
-    ├── benchmark.py              # [Funções de cronometragem]
-    └── plotar_graficos.py        # [Geração dos gráficos]
-
----
+└── 📂 prim/                            # Implementação do Algoritmo de Prim
+    ├── 📂 resultados/                  # CSVs e gráficos gerados automaticamente
+    ├── 📄 main.py                      # Execução em lote dos testes
+    ├── 📄 prim.py                      # Algoritmo de Prim
+    ├── 📄 graph_generator.py           # Gerador de grafos
+    ├── 📄 benchmark.py                 # Cronometragem e estatísticas
+    └── 📄 plotar_graficos.py           # Geração dos gráficos (Matplotlib)
+```
 
 ## Como Executar o Projeto
 
