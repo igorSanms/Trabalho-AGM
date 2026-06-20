@@ -67,4 +67,29 @@ python main.py
 python plotar_graficos.py
 ```
 
+## 2. Executando o Prim
+
+A partir da raiz do repositório, abra o seu terminal e navegue até a pasta do Kruskal:
+
+```powershell
+cd prim
+```
+### 2.1 Crie e ative o ambiente virtual
+```powershell
+python -m venv venv
+venv\Scripts\activate
+```
+### 2.2 Instale a dependência de plotagem
+```powershell
+pip install matplotlib
+```
+### 2.3 Execute o script main
+```powershell
+python main.py
+```
+### 2.4 Execute o script gerador de gráficos
+```powershell
+python plotar_graficos.py
+```
+
 
